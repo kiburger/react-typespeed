@@ -13,4 +13,5 @@ This is a simple TypeSpeed app built with **React** and **Vite** to test deploym
 - **Vite** (for fast development)
 
 [Give it a try here!](https://rui-23.github.io/react-typespeed/)
+
 This app is a fun way to practice typing and a great demo for GitHub Pages deployment.
