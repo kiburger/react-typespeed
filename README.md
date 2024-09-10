@@ -1,8 +1,15 @@
-# React + Vite
+# TypeSpeed App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple TypeSpeed app built with **React** and **Vite** to test deployment on GitHub Pages. Users can measure how many characters they can type in a set time period.
 
-Currently, two official plugins are available:
+## Features
+- Select a time period for the typing test from a dropdown menu.
+- The test starts automatically when the user begins typing in the textarea.
+- Displays the number of characters typed after the time is up.
+- **Restart** button to reset the test and try again.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React** (UI library)
+- **Vite** (for fast development)
+
+This app is a fun way to practice typing and a great demo for GitHub Pages deployment.
