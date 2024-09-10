@@ -21,19 +21,28 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-  /* background: url('./background.webb.webp'); */
   background-color: rgb(8, 222, 222);
-  /* background-position: center; */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h2 {
+  font-size: 2em;
+  color: #646cff;
+}
+
+.quote {
+  padding: 2em;
+  line-height: 1.4;
+  margin: 0 8em;
+  text-align: center;
 }
 
 select {
   display: block;
-  margin-left: auto;
+  margin: 0 auto;
+}
+
+textarea {
+  min-height: 200px;
 }
 
 button {
@@ -53,39 +62,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
-
-/* newly-added for test */
-.container {
-  width: 100%;
-  border: 1px solid #646cff;
-}
-
-.container svg {
-  width: 100%;
-  animation: runningball 5s infinite alternate forwards;
-}
-
-@keyframes runningball {
-  from {
-    translate: 0;
-    opacity: .5;
-  }
-  to {
-    translate: 440px;
-    opacity: 1;
-  }
 }
